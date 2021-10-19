@@ -88,7 +88,8 @@ display: inline-block;
 
 .comentarios { width: 50%;
 padding-right: 200px;
-
+position: relative;
+top: 200px;
 
 }
 
@@ -107,6 +108,17 @@ padding-right: 200px;
 .flex-container {
 	display: flex;
 
+}
+
+.flex-item {
+
+margin: 50px;
+min-width: 250px;}
+
+.flex-item-imagen {
+width: 310px;
+padding-right: 35px;
 
 
 	}
+
